@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no" name="viewport">
+    <title>Ready Rock Paper Scissors</title>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <script src = script.js defer></script>
+<!--    <script src = "ui.js" defer></script>-->
+</head>
+
+<body>
+    <div class="container wow fadeInUp delay-03s">
+        <div class="row">
+            <div class="logo text-center">
+                <img alt="logo" src="assets/img/logo.png" width="130">
+                <h2 id="scoreMessage">First to score 5 points wins the game</h2>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="result">
+            <p id="winMessage"></p>
+            <p id="playWin"></p>
+            <p id="compWin"></p>
+    </div></section>
+        <div class="container-img" style="color: transparent;">
+            <div style="color: transparent;">
+                <button id="rock" class="btn btn-rock" style="color: transparent;" type="button"><img
+                        src="assets/img/rock.jpg" alt = "rock"></button>
+                <button id="paper" class="btn btn-paper" style="color: transparent;" type="button"><img
+                        src="assets/img/paper.jpg" alt = "paper"></button>
+                <button id="scis" class="btn btn-scis" style="color: transparent;" type="button"><img
+                        src="assets/img/scis.jpg" alt = "scissors"></button>
+                <p></p>
+            </div>
+        </div>
+    <div id = "result" ></div>
+
+<footer class="footer">
+    Designed by NikaZoro
+</footer>
+<div class="modal" id="endgameModal">
+      <p class="modal-title" id="endgameMsg"></p>
+      <button class="btn btn-restart" id="restartBtn">Play again</button>
+    </div>
+    <div class="overlay" id="overlay"></div>
+</body>
+</html>
